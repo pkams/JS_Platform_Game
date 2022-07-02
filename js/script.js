@@ -73,6 +73,6 @@ var interval = window.setInterval(function() {
 
   score_counter = Math.floor(time / 100);
 
-  score.innerText = score_counter;
+  score.innerText = 'Score: ' + score_counter;
 }, 100);
 
